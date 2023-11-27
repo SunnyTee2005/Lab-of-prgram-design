@@ -11,7 +11,7 @@ int main(void){
         if(rightC > right_most_C)
             right_most_C = rightC;
         
-        for(int j=leftC ; j<=rightC ; j++){
+        for(int j=leftC ; j<rightC ; j++){
             if(inputHight > hight[j])
                 hight[j] = inputHight;
         }
